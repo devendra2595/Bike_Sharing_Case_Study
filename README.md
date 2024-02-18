@@ -32,10 +32,20 @@ Read and understood the data.
 So, to avoid their misinterpretation, converted them back to their original category name and changed them to categorical datatype.
 
 # 2) Data Analysis and Visualisation
-- Univariate Numerical: 'temp','atemp','hum','windspeed','cnt'. Most of the variable were normally distributed with 'temp' and 'atemp' showing obvious signs of multicollinearity.
+- Univariate Numerical: 'temp','atemp','hum','windspeed','casual','registered','cnt'. Most of the variable were normally distributed with 'temp' and 'atemp' showing obvious signs of multicollinearity.
 
 - Bivariate (Categorywise demand)
 ![image](https://github.com/devendra2595/Bike_Sharing_Case_Study/assets/116253033/99eb96ea-97c7-4b7d-b595-bce5c9ec63f1)
+- For the variable season, we can clearly see that the category 3 : Fall, has the highest median, which shows that the demand was high during this season. It is least for 1: spring .
+- The count of users is less during the holidays
+- From the "Workingday" boxplot we can see that maximum bookings happening between 4000 and 6000. There is not much of difference in booking whether its working day or not.
+- The count of total users is in between 4000 to 6000 (~5500) during  weather sitiation A(Clear)
+- From the "Mnth" boxplot we can see that the months are following a trend and could be a good predictor variable. The bookings in the mid-month are above 4000. The count is highest in the month of Sept
+- The bike demand is almost constant throughout the week. there seems no trend in the weekday dataset.
+- The year 2019 had a higher count of users as compared to the year 2018.
+- Also, its important to note that, almost all the categories do not have any significant outliers.
+
+
 
 
 
