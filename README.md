@@ -57,6 +57,8 @@ Correlation of Count('cnt') with independent variables:
 Correlation among independent variables:
 - Some of the independent variables are highly correlated (look at the top-left part of matrix): atemp and temp are highly (positively) correlated. The correlation between the two is almost equal to 1.
 
+# 3) Data Preparation for Model Building:
+
 
 
 
