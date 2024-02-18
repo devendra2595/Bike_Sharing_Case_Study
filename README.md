@@ -51,7 +51,8 @@ Correlation among independent variables:
 - Some of the independent variables are highly correlated (look at the top-left part of matrix): atemp and temp are highly (positively) correlated. The correlation between the two is almost equal to 1.
 
 
-- Bivariate (Categorywise demand)
+- Bivariate Categorical (Categorywise demand)
+- 
 ![image](https://github.com/devendra2595/Bike_Sharing_Case_Study/assets/116253033/99eb96ea-97c7-4b7d-b595-bce5c9ec63f1)
 - 1) As we had previously seen that number of rides increases from may to oct which corresponds to summer & fall season.
 - 2) There is a significant increase in median number of rides from 2018 to 2019 (approx 50%, went from approx 4000 to approx 6000), this shows a good upward trend.
