@@ -101,9 +101,9 @@ From graph and pearson r coeff (almost 0), it is evident that the error terms ar
 
 # 7) Interpretation of model:
 Final Equation for the best fit line - Relationship between target and predictors
-# cnt =( 0.130722 + 0.232563* yr - 0.096575* holiday + 0.517336* temp -0.149709* windspeed + 0.101217* season_summer
-#      + 0.137090* season_winter + 0.054141* mnth_Aug + 0.116291* mnth_Sep 
-#      - 0.081139*weathersit_2 - 0.281852*weathersit_3 )
+   cnt =( 0.130722 + 0.232563* yr - 0.096575* holiday + 0.517336* temp -0.149709* windspeed + 0.101217* season_summer
+   + 0.137090* season_winter + 0.054141* mnth_Aug + 0.116291* mnth_Sep 
+    - 0.081139*weathersit_2 - 0.281852*weathersit_3 )
 
 - 1) year: year and count shows positive relation with count variable, which means the demand is going to rise over the coming years, although this result may be biased as we only had dataset of 2 years which was following the same trend.
 - 2) holiday : holiday showed negative relation with count, as per our equation, on holiday the rental count would dip by 0.096575 units.
