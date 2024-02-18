@@ -46,6 +46,17 @@ So, to avoid their misinterpretation, converted them back to their original cate
 - Also, its important to note that, almost all the categories do not have any significant outliers.
 
 
+- Bivariate (Numerical) : Heatmap
+  ![image](https://github.com/devendra2595/Bike_Sharing_Case_Study/assets/116253033/fa23d20a-e18e-4aea-b750-aa8493bd4abf)
+  
+Correlation of Count('cnt') with independent variables:
+- Count('cnt') is highly (positively) correlated with 'casual' and 'registered' and further it is with 'atemp'.
+- We can clearly understand the high positive correlation of count with 'registered' and 'casual' as both of them together add up to represent count.
+- Count is negatively correlated to 'windspeed' (-0.24 approximately). This gives us an impression that the shared bikes demand will be somewhat less on windy days as compared to normal days.
+
+Correlation among independent variables:
+- Some of the independent variables are highly correlated (look at the top-left part of matrix): atemp and temp are highly (positively) correlated. The correlation between the two is almost equal to 1.
+
 
 
 
