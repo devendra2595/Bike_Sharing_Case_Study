@@ -59,8 +59,19 @@ Correlation among independent variables:
 
 # 3) Data Preparation for Model Building:
 
+Pre-Processing :
+- Created dummy variables for categorical variables using get dumies function
+- Splitted data into train and test in 70-30 ratio.
+- Scaled numerical variable using MinMax Scaler.
 
-
+Model Building:
+- Built 1st model with all 28 features. adjusted_r2 - 84.1
+- Reduced the features to 15, by using Recursive Feature Elimination
+- Built 2nd model with 15 features, got adjusted_r2_score - 84.0
+- Built 3rd model with 10 features, got adjusted_r2_score - 82.9
+- As all variables had p-value<0.05, all 10 were significant, so dropped variable with high vif, >5.
+- Built final model with 8 predictors, adjusted_r2_score 80.1 and all vif values under 5.
+ 
 
 
 
