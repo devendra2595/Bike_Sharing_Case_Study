@@ -40,6 +40,7 @@ So, to avoid their misinterpretation, converted them back to their original cate
 - Univariate Numerical: 'temp','atemp','hum','windspeed','casual','registered','cnt'. Most of the variable were normally distributed with 'temp' and 'atemp' showing obvious signs of multicollinearity.
   
 - Bivariate (Numerical) : Heatmap
+- 
 ![image](https://github.com/devendra2595/Bike_Sharing_Case_Study/assets/116253033/c45a5bbb-1fd8-4881-a89c-e4fe7441ca0a)
   
 Correlation of Count('cnt') with independent variables:
