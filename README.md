@@ -62,9 +62,10 @@ Correlation among independent variables:
 Pre-Processing :
 - Created dummy variables for categorical variables using get dumies function
 - Splitted data into train and test in 70-30 ratio.
-- Scaled numerical variable using MinMax Scaler.
+- Scaled numerical variables using MinMax Scaler .
 
-Model Building:
+# 4) Model Building:
+
 - Built 1st model with all 28 features. adjusted_r2 - 84.1
 - Reduced the features to 15, by using Recursive Feature Elimination
 - Built 2nd model with 15 features, got adjusted_r2_score - 84.0
@@ -72,7 +73,20 @@ Model Building:
 - As all variables had p-value<0.05, all 10 were significant, so dropped variable with high vif, >5.
 - Built final model with 8 predictors, adjusted_r2_score 80.1 and all vif values under 5.
  
+# 5) Model Evaluation and Prediction on Test Set:
+![image](https://github.com/devendra2595/Bike_Sharing_Case_Study/assets/116253033/74183b7d-ba01-43b5-a88c-aff7da3edb1e)
 
+- Error terms are normally distributed
+
+- r2_score on test set = 77.20
+
+- for the model with 8 variables, the r-squared on training and test data is about 80.38% and 77.20% respectively.
+
+![image](https://github.com/devendra2595/Bike_Sharing_Case_Study/assets/116253033/431b1710-5d65-4031-befc-b69454458ed0)
+
+- This is the simplest model that we could build. The final predictors seem to have fairly low correlations. 
+
+- Thus, the final model consists of the 8 variables mentioned above.One can go ahead with this model and use it for predicting count of daily bike rentals.
 
 
 
