@@ -16,7 +16,7 @@ Essentially, the company wants to know —
 - seaborn
 - statsmodels
 - sklearn
-- 
+
 # The solution is divided into the following sections: 
 
 1) Data understanding and Exploration
