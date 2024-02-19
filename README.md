@@ -10,13 +10,12 @@ Essentially, the company wants to know —
 **So interpretation is important!**
 
 # Libraries Used
-numpy
-pandas
-matplotlib
-seaborn
-statsmodels
-sklearn
-scipy
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- statsmodels
+- sklearn
 
 # The solution is divided into the following sections: 
 - Data understanding and Exploration
